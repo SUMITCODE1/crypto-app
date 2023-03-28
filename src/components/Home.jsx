@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
+    <>
+    <h1>Created by sumit kumar</h1>
     <Box bgColor={"blackAlpha.900"} w={"full"} h={"85vh"}>
       <motion.div
         style={{
@@ -38,6 +40,7 @@ const Home = () => {
         Xcrypto
       </Text>
     </Box>
+    </>
   );
 };
 
